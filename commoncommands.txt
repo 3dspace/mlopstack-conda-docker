@@ -1,0 +1,14 @@
+python -m venv .venv
+
+#Activate the virtual environment.
+
+source .venv/bin/activate
+****just-> activate 
+
+pip install fastapi[all]
+****just--> pip install fastapi
+
+pip install uvicorn
+
+uvicorn main:app --port 8000 --reload
+
