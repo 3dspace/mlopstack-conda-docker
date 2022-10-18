@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return { "message": "FastAPI! Further revisions, working with git branches." }
+    return { "message": "FastAPI! Further revisions." }
