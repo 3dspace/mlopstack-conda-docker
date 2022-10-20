@@ -19,3 +19,5 @@ docker build -t getting-started .
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 docker build -t myimage .
+
+docker run -d --name thirdcontainer -p 80:80 secondimage
