@@ -15,3 +15,7 @@ uvicorn main:app --port 8000 --reload
 docker run -d -p 80:80 docker/getting-started
 
 docker build -t getting-started .
+
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+docker build -t myimage .
