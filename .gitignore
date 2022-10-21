@@ -4,5 +4,5 @@ app/app/spec/
 app/app/src/
 dockerized/fastapiapp/env/
 dockerhub/app/spec/
-dockerhub/app/src/
+
 dockerhub/docs/
